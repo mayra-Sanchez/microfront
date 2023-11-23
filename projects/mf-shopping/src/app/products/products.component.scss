@@ -1,0 +1,15 @@
+.app {
+  border: 2px dashed rgb(0, 0, 0);
+  text-align: center; /* Centra el texto horizontalmente dentro de .app */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(395px, 1fr));
+  row-gap: 1em;
+  padding: 1em;
+}
+
+h1 {
+  margin: 0; /* Elimina el margen predeterminado del h1 */
+}
